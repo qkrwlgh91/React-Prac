@@ -3,3 +3,5 @@ npm install @material-ui/core @material-ui/icons @material-ui/lab @react-google-
 https://console.cloud.google.com/projectcreate
 
 https://rapidapi.com/apidojo/api/travel-advisor/
+
+https://snazzymaps.com/

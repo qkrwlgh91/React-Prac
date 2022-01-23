@@ -13,7 +13,7 @@ const Map = ({ setCoordinates, setBounds, coordinates, places, setChildClicked }
     return (
         <div className={classes.mapContainer}>
             <GoogleMapReact 
-                bootstrapURLKeys={{ key: ''}}
+                bootstrapURLKeys={{ key: 'AIzaSyBZWnMAxX0fxm0QEBY7vJg4r4rCFH92oAk'}}
                 defaultCenter={coordinates}
                 center={coordinates}
                 defaultZoom={14}
@@ -49,7 +49,7 @@ const Map = ({ setCoordinates, setBounds, coordinates, places, setChildClicked }
                                     </Typography>
                                     <img 
                                         className={classes.pointer}
-                                        src={place.photo ? place.photo.images.large.url : ''}
+                                        src={place.photo ? place.photo.images.large.url : 'https://www.foodserviceandhospitality.com/wp-content/uploads/2016/09/Restaurant-Placeholder-001.jpg'}
                                         alt={place.name}
                                     />
                                     <Rating size="small" value={Number(place.rating)} readOnly />
